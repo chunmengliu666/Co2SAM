@@ -15,7 +15,7 @@ The code is available at https://github.com/chunmengliu666/Co2SAM.
 #### 1. install dependencies 
 Ubuntu 18.04, CUDA 11.4, Python 3.8, and the following Python dependencies.
 
-```pip install -r requirements.txt```
+```pip install -r ./code_ms_coco_2014/requirements.txt```
 
 #### 2. Download dataset 
 Download [the PASCAL VOC 2012 development kit](http://host.robots.ox.ac.uk/pascal/VOC/voc2012).
@@ -25,7 +25,7 @@ Download [groundingdino_swint_ogc.pth](https://drive.google.com/file/d/1iom_nV2_
 
 Download [sam_vit_b_01ec64.pth](https://drive.google.com/file/d/1Z-Smk9uSNbqrJaLmsYfK3Ia50Pg2N9CA/view?usp=sharing).
 
-Download [sam_vit_h_4b8939.pth](https://drive.google.com/file/d/1Q4tuPLyudVQ8A11eSY63qPl74n7v8BPl/view?usp=sharing).
+Download [sam_vit_h_4b8939.pth](https://drive.google.com/file/d/1E2rBxK-GN1RiD-qBaYeypIGEcrM6gogw/view?usp=sharing).
 
 
 ## Usage
@@ -42,9 +42,9 @@ Download [sam_vit_h_4b8939.pth](https://drive.google.com/file/d/1Q4tuPLyudVQ8A11
 
 #### Download our trained weights
 | Stage       |  Google drive | mIoU (%) |
-|--------------|------------|--------------|--------------|
-| PASCAL VOC 2012 |  [Weights](https://drive.google.com/file/d/1yTQApRtJS4xwfFKJBskKpnQ2HHUIR7_C/view?usp=sharing)  | 81.1 |
-| MS COCO 2014 |  [Weights](https://drive.google.com/file/d/1cPcNtXbvgiSeKO3YYM-8Vp8SiyMVRS58/view?usp=drive_link)  | 62.7 |
+|--------------|--------------|--------------|
+| PASCAL VOC 2012 |  [Weights](https://drive.google.com/file/d/1bdV-F2jyVHVP34stlP2NX0FNYShOHlPK/view?usp=sharing)  | 81.1 |
+| MS COCO 2014 |  [Weights](https://drive.google.com/file/d/1zzefJknfSukmtfyqHJeFLKoVL5NnX0K6/view?usp=sharing)  | 62.7 |
 
 
 ## Acknowledgements
