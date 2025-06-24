@@ -18,7 +18,8 @@ Ubuntu 18.04, CUDA 11.4, Python 3.8, and the following Python dependencies.
 ```pip install -r ./code_ms_coco_2014/requirements.txt```
 
 #### 2. Download dataset 
-Download [the PASCAL VOC 2012 development kit](http://host.robots.ox.ac.uk/pascal/VOC/voc2012).
+Download [the PASCAL VOC 2012 dataset](http://host.robots.ox.ac.uk/pascal/VOC/voc2012).
+Download [the MS COCO 2014 dataset](https://cocodataset.org/index.htm#download).
 
 #### 3. Download pre-trained weights and put them under the folder "./code_pascal_voc_2012/checkpoints" or "./code_ms_coco_2014/checkpoints"
 Download [groundingdino_swint_ogc.pth](https://drive.google.com/file/d/1iom_nV2_sqTmMswhZt9nPsvvoNSrO60X/view?usp=sharing).
