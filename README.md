@@ -21,7 +21,7 @@ Ubuntu 18.04, CUDA 11.4, Python 3.8, and the following Python dependencies.
 Download [the PASCAL VOC 2012 dataset](http://host.robots.ox.ac.uk/pascal/VOC/voc2012).
 Download [the MS COCO 2014 dataset](https://cocodataset.org/index.htm#download).
 
-#### 3. Download pre-trained weights and put them under the folder "./code_pascal_voc_2012/checkpoints" or "./code_ms_coco_2014/checkpoints"
+#### 3. Download pre-trained weights and put them under the folder "./code_pascal_voc_2012/checkpoints" and "./code_ms_coco_2014/checkpoints"
 Download [groundingdino_swint_ogc.pth](https://drive.google.com/file/d/1iom_nV2_sqTmMswhZt9nPsvvoNSrO60X/view?usp=sharing).
 
 Download [sam_vit_b_01ec64.pth](https://drive.google.com/file/d/1Z-Smk9uSNbqrJaLmsYfK3Ia50Pg2N9CA/view?usp=sharing).
@@ -31,21 +31,21 @@ Download [sam_vit_h_4b8939.pth](https://drive.google.com/file/d/1E2rBxK-GN1RiD-q
 
 ## Usage
 
-#### 1. cd code_pascal_voc_2012, Run the run.sh script for training Co2SAM on PASCAL VOC 2012 dataset
+#### 1. cd code_pascal_voc_2012, Run the run.sh script for training Co2SAM on the PASCAL VOC 2012 dataset
 
 ```bash run.sh```
 
-#### 2. cd code_ms_coco_2014, Run the run.sh script for training Co2SAM on MS COCO 2014 dataset
+#### 2. cd code_ms_coco_2014, Run the run.sh script for training Co2SAM on the MS COCO 2014 dataset
 ```bash run.sh```
 
 
 ## Testing
 
 #### Download our trained weights
-| Stage       |  Google drive | mIoU (%) |
+| Stage       |  Weights | mIoU (%) |
 |--------------|--------------|--------------|
-| PASCAL VOC 2012 |  [Weights](https://drive.google.com/file/d/1bdV-F2jyVHVP34stlP2NX0FNYShOHlPK/view?usp=sharing)  | 81.1 |
-| MS COCO 2014 |  [Weights](https://drive.google.com/file/d/1zzefJknfSukmtfyqHJeFLKoVL5NnX0K6/view?usp=sharing)  | 62.7 |
+| PASCAL VOC 2012 |  [Google driver](https://drive.google.com/file/d/1bdV-F2jyVHVP34stlP2NX0FNYShOHlPK/view?usp=sharing)  | 81.1 |
+| MS COCO 2014 |  [Google driver](https://drive.google.com/file/d/1zzefJknfSukmtfyqHJeFLKoVL5NnX0K6/view?usp=sharing)  | 62.7 |
 
 
 ## Acknowledgements
