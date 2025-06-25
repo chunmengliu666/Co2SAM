@@ -42,7 +42,7 @@ Download [sam_vit_h_4b8939.pth](https://drive.google.com/file/d/1E2rBxK-GN1RiD-q
 ## Testing
 
 #### Download our trained weights
-| Stage       |  Weights | mIoU (%) |
+| Datasets   |  Weights | mIoU (%) |
 |--------------|--------------|--------------|
 | PASCAL VOC 2012 |  [Google driver](https://drive.google.com/file/d/1bdV-F2jyVHVP34stlP2NX0FNYShOHlPK/view?usp=sharing)  | 81.1 |
 | MS COCO 2014 |  [Google driver](https://drive.google.com/file/d/1zzefJknfSukmtfyqHJeFLKoVL5NnX0K6/view?usp=sharing)  | 62.7 |
